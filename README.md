@@ -3,7 +3,7 @@
 **A honest-by-construction estimator that predicts decisions from a neurally-grounded
 parameter profile, and provably abstains when it cannot.**
 
-Aayush Gandhi (harness lineage: `behavioral_decoding`).
+The author (harness lineage: `behavioral_decoding`).
 Status document. Living. Updated every time a result lands. Last update: 2026-08-20.
 
 ---
