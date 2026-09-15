@@ -20,7 +20,7 @@ cd submission && pandoc manuscript.md -o manuscript.pdf --pdf-engine=pdflatex --
 1. **Affiliation** — add your institution/affiliation under the author name in the YAML front matter
    of `manuscript.md` (currently just "Aayush Gandhi").
 2. **ORCID** — 0009-0003-4649-0367 (add on the arXiv + Scholastica forms).
-3. **Authorship** — decide whether the `behavioral_decoding` harness lineage (Gowthaam Gopalakrishnan)
+3. **Authorship** — sole authorship; the `behavioral_decoding` harness lineage is credited as prior work, not co-authorship
    warrants co-authorship or an acknowledgement. If co-author, add to the YAML author list.
 4. **Verify DOIs** in `references.bib` (dataset DOIs and newest citations are verified; a few library
    entries are marked "verify before camera-ready").
