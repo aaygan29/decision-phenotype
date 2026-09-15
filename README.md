@@ -103,6 +103,12 @@ exist. What is on real data vs simulation is in the claims table above. In short
 per-subject fMRI *and* choices together), a coded real decision corpus for C5/C6, and reaction-time
 identification of the decision temperature τ. See paper Section 10.
 
+## Related work (post-submission)
+
+1. Takács F, Bimbard C, Booth GM, Robacha M, Shinn M, Socha KZ, Harris KD, Coen P, Carandini M. "The role of superior colliculus in a logistic decision." bioRxiv 2026, doi 10.64898/2026.06.05.730072. Optogenetic SC inactivation in mice shifts choice bias contralaterally without changing sensory sensitivity, bilateral effects add, and choices follow a logistic weighted sum. Relevance: causal support for separating bias from sensitivity parameters in decision models like AIM-DDM; mouse 2AFC caveat.
+
+2. Li H, Chrysanthidis N, Brincat SL, Rose J, Miller EK. "Neural subspace reorganization reflects value-based decision-making." iScience 29:117492 (2026), doi 10.1016/j.isci.2026.117492. In macaque lateral PFC, options are held in order-based orthogonal subspaces before a choice and reorganized into choice-based subspaces after, with chosen options aligned for a common readout. Relevance: a candidate neural signature of the commitment stage in evidence-accumulation models; two animals, correlational.
+
 ## Checkpoint protocol (so nothing is lost)
 
 - **STATUS.md updated in the same commit as any result.** A result that is not logged did not happen.
