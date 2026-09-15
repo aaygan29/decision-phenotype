@@ -1,7 +1,7 @@
 ---
 title: "Neural-Grounded Computational Decision Phenotypes: Honest-by-Construction Prediction of Choice, with Provable Abstention"
 author:
-  - Aayush Gandhi
+  - Anonymous Author(s)
 date: "August 2026"
 abstract: |
   Predicting how a person will decide is usually treated as a black-box classification problem, which
