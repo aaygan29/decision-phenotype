@@ -12,3 +12,6 @@ LPFC population geometry reorganizes across a decision: options in separate orde
 Validated multivariate fMRI signatures (appetitive/reward, negative affect) as .nii, GPL-3.0 (some patterns need a research agreement). Action item: use a reward signature as an external anchor for the value term instead of training a value decoder from scarce data. Log provenance and licensing before use.
 
 Pairs with the Knutson and Genevsky NAcc reward-anticipation line already in the program.
+
+## 4. LC-NE learning signals (Su et al., Allen Institute, bioRxiv 717727)
+Dorsal locus coeruleus neurons projecting to cortex fire on choice switches and track reward prediction error; NE modulates gain and effective noise. Action item: motivate the model's exploration / choice-perseveration term (and any trial-history dependence) with a named neuromodulatory source, and consider an arousal proxy (pupil, latency drift) as a covariate so exploration is not confounded with arousal state.
