@@ -16,3 +16,7 @@ data/narps/fmri_cache/
 data/narps/fmri_tmp/
 
 data/eeg_tmp/
+
+# Lean build artifacts (Mathlib cache is large; never commit)
+proofs/.lake/
+proofs/lake-manifest.json
