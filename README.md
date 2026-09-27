@@ -109,6 +109,8 @@ identification of the decision temperature τ. See paper Section 10.
 
 2. Li H, Chrysanthidis N, Brincat SL, Rose J, Miller EK. "Neural subspace reorganization reflects value-based decision-making." iScience 29:117492 (2026), doi 10.1016/j.isci.2026.117492. In macaque lateral PFC, options are held in order-based orthogonal subspaces before a choice and reorganized into choice-based subspaces after, with chosen options aligned for a common readout. Relevance: a candidate neural signature of the commitment stage in evidence-accumulation models; two animals, correlational.
 
+3. Ritz H, Jha A, Daw ND, Cohen JD. "Inter-trial convergence of neural task states supports cognitive flexibility." Current Biology 36:4245-4257 (2026), doi 10.1016/j.cub.2026.07.028. RNNs and human brains reset to a neutral task state between trials; control-dependent resetting unifies classic accounts of cognitive flexibility. Relevance: licenses two BETWEEN-trial phenotype axes the within-trial AIM-DDM did not score, implemented as **E8** (`src/reset_dynamics.py`): `neutral_return` (reset completeness) and `reset_speed` (relaxation rate). E8 validates that reset_speed recovers the true rate (r=0.997) and that more return-to-neutral predicts lower switch cost (r=-0.96), with a no-reset negative control; all gated. RNN + human, and E8 here is simulation of the mechanism.
+
 ## Checkpoint protocol (so nothing is lost)
 
 - **STATUS.md updated in the same commit as any result.** A result that is not logged did not happen.
